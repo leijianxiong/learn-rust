@@ -2,7 +2,8 @@
 陈天 rust第一课 12思考题
 */
 use std::fs::File;
-use std::io::Write;
+use std::io::{Write, Result};
+use std::path::Path;
 
 #[derive(Debug)]
 struct MyWriter<W> {
