@@ -70,7 +70,7 @@ fn main() -> Result<(), Box<dyn Error>> {
 
         //当打印完成后输出空行
         if path_printed {
-            println!("");
+            println!();
         }
     }
 
